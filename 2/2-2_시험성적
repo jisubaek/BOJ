@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void){
+    int score;
+    scanf_s("%d",&score);
+    if(score<60)
+        printf("F");
+    else if(score<=69)
+        printf("D");
+    else if(score<=79)
+        printf("C");
+    else if(score<=89)
+        printf("B");
+    else
+        printf("A");
+    
+    return 0;
+}
